@@ -48,7 +48,6 @@ def set_led(R, Y, G):
 	GPIO.output(GPIO_LED_G, G)
 
 	global WarningCnt
-	#print("%d" % WarningCnt)
 
 	if R:
 		WarningCnt+=1
